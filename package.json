@@ -1,0 +1,36 @@
+{
+  "name": "onedionys-load-balancer-middleware",
+  "version": "1.0.0",
+  "description": "One Dionys (Load Balancer Middleware) - Middleware to distribute traffic evenly across multiple backend servers, improving application scalability and availability.",
+  "main": "src/loadBalancerMiddleware.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onedionys/onedionys-load-balancer-middleware.git"
+  },
+  "keywords": [
+    "onedionys",
+    "tea",
+    "package-manager",
+    "load-balancer-middleware"
+  ],
+  "author": "One Dionys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onedionys/onedionys-load-balancer-middleware/issues"
+  },
+  "homepage": "https://github.com/onedionys/onedionys-load-balancer-middleware#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21"
+  }
+}
